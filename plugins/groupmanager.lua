@@ -3108,7 +3108,7 @@ local lang = redis:get(hash)
      welcome = administration[arg.chat_id]['setwelcome']
       else
      if not lang then
-     welcome = "*Welcome my friend*"
+     welcome = "*Welcome Dude*"
     elseif lang then
      welcome = "_خوش آمدید_"
         end
